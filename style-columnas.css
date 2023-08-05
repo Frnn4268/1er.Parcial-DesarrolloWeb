@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.tarjeta {
+    background-color: gainsboro;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+  img {
+    width: 500px;
+    margin: 15px;
+}
+
+.banner {
+    width: 200px;
+    margin: 0px 0px 0px 43%;
+    padding: 15px;
+}
